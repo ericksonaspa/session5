@@ -1,0 +1,83 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: skyblue;
+  margin-bottom: 150px;
+}
+
+#top {
+  background-color: white;
+}
+
+div {
+  float: right;
+}
+
+h1,
+h2,
+h3,
+section {
+  text-align: center;
+  font-weight: 700px;
+  letter-spacing: 3px;
+}
+
+img {
+  height: 320px;
+  width: 320px;
+  border-radius: 300px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+#landing {
+  height: 100%;
+  width: 100%;
+}
+
+.offering-item {
+  text-transform: uppercase;
+}
+
+#register {
+  padding-top: 100px;
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  height: 240px;
+  width: 330px;
+  margin: auto;
+  text-align: center;
+  border: 3px solid black;
+}
+
+label {
+  color: #4b0082;
+}
+
+input {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 5px 0;
+  border: 2px solid #4b0082;
+}
+
+button {
+  background-color: rgb(223, 17, 69);
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
