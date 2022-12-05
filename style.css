@@ -1,0 +1,95 @@
+/* reset default html style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+div {
+  display: inline-block;
+  float: right;
+}
+
+/* 
+nav {
+  display: flex;
+} 
+*/
+
+body {
+  background-color: skyblue;
+}
+
+#top {
+  background-color: white;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+#mern-motto {
+  text-align: center;
+  margin: 15px;
+  letter-spacing: 3px;
+}
+
+img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+#landing,
+#register {
+  text-align: center;
+  height: 100vh;
+}
+
+ol {
+  text-align: center;
+  margin: 15px;
+  color: darkgreen;
+  list-style: none;
+}
+
+ol + a {
+  display: block;
+  text-align: center;
+}
+
+form {
+  width: 20%;
+  height: 220px;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+}
+
+input {
+  /* margin: 5px; */
+  border: 2px solid black;
+  display: block;
+  margin: auto;
+  height: 10%;
+}
+
+button {
+  margin: 15px;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: #cf0053;
+  color: white;
+}
